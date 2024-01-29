@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
 body {
   padding: 8px;
   background: #212121;
