@@ -1,4 +1,4 @@
-# Pika's edition of the Skiovox Helper. The edition where you wont ever see "pika" or "skiovox" while using it. 
+# Pika's edition of the Skiovox Helper. The edition where you wont ever see "pika" or "skiovox" while using it. Instead, you'll see silly cats :3 
 ### The helper extension for the Skiovox exploit.
 
 I assume you know how to install, but if you dont here: 
