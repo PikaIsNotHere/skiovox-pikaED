@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "2.4.1",
   "name": "Skiovox Helper PikaED",
-  "description": "A helper for the Skiovox exploit -- read more at skiovox.com",
+  "description": "Pika's edition to the skiovox helper. Learn more at skiovox.com",
   "icons": {
     "128": "icon.png"
   },
