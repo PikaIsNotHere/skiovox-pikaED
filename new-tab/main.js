@@ -5,6 +5,7 @@ import { DateDisplay } from "./date-display.js";
 import { TimeDisplay } from "./time-display.js";
 import { BackgroundController } from "./background-controller.js";
 
+const THEME_URL = "chrome://customize-chrome-side-panel.top-chrome";
 const WIFI_URL = "chrome://network/#select";
 const BLUETOOTH_URL = "chrome://bluetooth-pairing";
 const SETTINGS_URL = "chrome://settings";
@@ -49,8 +50,7 @@ settings.addEventListener('click', () => {
 })
 
 theme.addEventListener('click', () => {
-    alert("The original New Tab page will now open. On that page, click the edit icon in the bottom right corner to edit your browser theme.")
-    chrome.tabs.create({ url: NEW_TAB_URL })
+    chrome.tabs.create({ url: THEME_URL })
 })
 
 files.addEventListener('click', () => {
@@ -66,7 +66,6 @@ help.addEventListener('click', () => {
 webStore.addEventListener('click', () => {
     let version = Number(navigator.appVersion.match(/Chrom(e|ium)\/([0-9]+)/)[2]);
     if (version < 113) { // not sure if this is actually the version
-        alert("This web store may not supported by your version");
     }
 
     chrome.tabs.create({ url: WEBSTORE_URL })
