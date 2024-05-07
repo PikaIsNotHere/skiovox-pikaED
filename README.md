@@ -18,3 +18,5 @@ open button in the bottom right
 
 sorry, no longer being worked on :(
 terraos is what im using rn, so i no longer need to improve skiovox
+
+decided to finish for fun, not as many features as b4 but its finished with some silly cats
